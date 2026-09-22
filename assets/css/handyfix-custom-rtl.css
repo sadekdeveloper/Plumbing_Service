@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.main-slider-one__shape svg {
+  transform: rotateY(180deg);
+  z-index: -2;
+}
+
+.handyfix-btn i,
+.service-one__item__btn a i,
+.footer-widget__links li i {
+  transform: rotateY(180deg);
+}
+
+.main-slider-one__shape {
+  transform: translateX(110%);
+}
+/*# sourceMappingURL=handyfix-custom-rtl.css.map */
